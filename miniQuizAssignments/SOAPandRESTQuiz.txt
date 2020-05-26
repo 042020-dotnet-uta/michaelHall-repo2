@@ -1,0 +1,37 @@
+Mini quiz SOAP and REST
+
+Question 1: Which of the following is NOT true about SOAP being an advantage?
+
+- It is the perfect medium developed for having a language used for web services to talk with client applications
+- (Correct) It is designed to be platform dependent and also operating system dependent
+- It is a light-weight protocol used for data interchange between applications
+- It works on the HTTP protocol, which is the default protocol used by all web applications
+
+Question 2: All communication by SOAP is done via the ______ protocol. Prior to SOAP, a lot of web services used the standard ______ style for communication.
+
+- HTTP, HTTP
+- RPC, RPC
+- (Correct) HTTP, RPC
+- RPC, HTTP
+
+Question 3: Which of the following data formats works for BOTH SOAP and REST?
+
+- (Correct) XML
+- HTML
+- JSON
+- Plain text
+- All of them
+
+Question 4: What kind of content goes into the request header element of a RESTful implementation?
+
+- Command telling the web server what to provide
+- What you want to do with the resource
+- Data sent with the request
+- (Correct) Additional instructions sent with the request
+
+Question 5: Which of the following were reasons why Restful came into popularity?
+
+- Heterogeneous languages and environments
+- The event of devices (everything needs to work on mobile devices)
+- The event of the cloud (applications moving to cloud-based systems)
+- (Correct) All of them
