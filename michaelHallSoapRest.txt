@@ -1,0 +1,86 @@
+Quiz Questions on SOAP:
+
+Question 1: Which of the following is NOT true about SOAP being an advantage?
+
+- It is the perfect medium developed for having a language used for web services to talk with client applications
+- (Correct) It is designed to be platform dependent and also operating system dependent
+- It is a light-weight protocol used for data interchange between applications
+- It works on the HTTP protocol, which is the default protocol used by all web applications
+
+Question 2: All communication by SOAP is done via the ______ protocol. Prior to SOAP, a lot of web services used the standard ______ style for communication.
+
+- HTTP, HTTP
+- RPC, RPC
+- (Correct) HTTP, RPC
+- RPC, HTTP
+
+Question 3: Which fault occurs when an invalid namespace for the SOAP Envelope element is encountered?
+
+- (Correct) VersionMismatch
+- MustUnderstand
+- Client
+- Server
+
+Question 4: Which of the following would NOT be a reason to use SOAP?
+
+- Asynchronous processing and subsequent invocation
+- Formal means of communication
+- (Correct) Caching
+- Stateful operations
+
+Question 5: Which SOAP Message element contains call and response information?
+
+- Envelope
+- (Correct) Body
+- Fault
+- Header
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Quiz Questions on REST:
+
+Question 1: Which of the following data formats work for REST?
+
+- XML
+- HTML
+- JSON
+- Plain text
+- (Correct) All of them
+
+Question 2: What kind of content goes into the request header element of a RESTful implementation?
+
+- Command telling the web server what to provide
+- (Correct) Additional instructions sent with the request
+- What you want to do with the resource
+- Data sent with the request
+
+Question 3: Which of the following were reasons why RESTful came into popularity?
+
+- Heterogeneous languages and environments
+- The event of devices (everything needs to work on mobile devices)
+- The event of the cloud (applications moving to cloud-based systems)
+- (Correct) All of them
+
+Question 4: Which of the following would be a reason to use REST?
+
+- Limited resource and bandwidth
+- Statelessness
+- Ease of coding
+- (Correct) All of them
+
+Question 5: What response status code is returned if there is no error or modification when returning a response to the client?
+
+- (Correct) 200
+- 203
+- 300
+- 303
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SOAP vs REST Writeup:
+
+What is SOAP?
+SOAP is an XML-based protocol for accessing web services over HTTP and is short for Simple Object Access Protocol. It was designed before REST and was designed to ensure that programs built on different platforms and programming languages could exchange data in an easy manner. SOAP includes a Web Service Description Language (WSDL) file which has the required information on what the web service does in addition to the location of the web service. SOAP uses service interfaces to expose its functionality to client applications. In it, the WSDL provides the client with the necessary information to understand the services that the web service can offer. The WSDL is stored in an external XML-based registry online known as Universal Description, Discovery and Integration (UDDI). SOAP needs a good bit of bandwidth for its usage since SOAP messages contain a lot of information inside of it. SOAP messages typically consist of an envelope which contains a single header and at least one body. The envelope is mandatory and identifies the message as a SOAP message with it being the root element containing the other parts. The header is optional and can contain authentication credentials or complex data type definitions. It must be the first child of the element. The body contains the data that is being sent and every envelope must have at least one. Since SOAP envelopes change when versions change, a fault is generated when envelope versions don’t match up. SOAP can only work with XML format and all data is passed in this format. SOAP should be used for asynchronous processing and subsequent invocation, as a formal means of communication, and for stateful operations.
+
+What is REST?
+REST stands for Representational State Transfer and is an architectural style in which a web service can only be treated as a RESTful service if it follows certain constraints. These constraints are that the service is client-server, stateless, cacheable, uniform interface, layered system, and code on demand. If all these principles are met, then the interface is considered RESTful. REST can make use of SOAP as the underlying protocol for web services because in the end it is just an architectural pattern. HTTP methods are often used within RESTful implementations. While the methods can be defined differently for each implementation, they must remain consistent throughout the application. Common methods include the POST, GET, PUT, and DELETE methods. POST is often used to create a new object, GET is often used to retrieve objects, PUT is often used to update object data, and DELETE is often used to remove objects. REST uses Uniform Service locators to access the components on the hardware device. It does not need as much bandwidth when requests are sent to the server as SOAP does. REST messages mostly just consist of JSON messages. REST permits the use of different data formats such as Plain text, HTML, XML, JSON, etc. But the most preferred format for transferring data is JSON. In comparison to SOAP, REST should be used for limited resources and bandwidth, statelessness, caching, and the ease of coding.

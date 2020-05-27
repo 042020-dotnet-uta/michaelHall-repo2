@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridgeService", "FridgeService.csproj", "{1A31832C-7DBF-4D57-955A-57D4B25B9B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridgeHost", "..\FridgeHost\FridgeHost.csproj", "{7B5A3BEB-528F-4364-A24C-EC7F087E4F32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A31832C-7DBF-4D57-955A-57D4B25B9B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A31832C-7DBF-4D57-955A-57D4B25B9B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A31832C-7DBF-4D57-955A-57D4B25B9B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A31832C-7DBF-4D57-955A-57D4B25B9B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B5A3BEB-528F-4364-A24C-EC7F087E4F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5A3BEB-528F-4364-A24C-EC7F087E4F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5A3BEB-528F-4364-A24C-EC7F087E4F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5A3BEB-528F-4364-A24C-EC7F087E4F32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01B3E4EF-510D-4EC0-808B-6AF81DAF71B7}
+	EndGlobalSection
+EndGlobal
