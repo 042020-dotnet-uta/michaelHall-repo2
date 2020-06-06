@@ -45,7 +45,7 @@ Question 5: What can labels be used for?
 - Designate objects for development, test, and production
 - Embed version tags
 - Classify an object using tags
-- (All of them)
+- (Correct) All of these methods
 
 Answer Source: https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/
 
