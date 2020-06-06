@@ -1,0 +1,71 @@
+Kubernetes Quiz:
+
+Question 1: Which of the following is NOT TRUE about the cloud-controller-manager?
+
+- It embeds cloud-specific control logic.
+- It will separate the components that interact with your cloud platform from componenets that only interact with your cluster.
+- (Correct) It runs the controller processes.
+- It combines several logically independent control loops into a single binary that you run as a single process.
+
+Answer Source: PDF Slide 9
+
+
+Question 2: The ________ communicate with the ________ using the Kubernetes API.
+
+- (Correct) nodes, master
+- nodes, cluster
+- master, nodes
+- cluster, master
+
+Answer Source: https://kubernetes.io/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro/
+
+
+Question 3: What is the kubectl command to deploy an app on Kubernetes?
+
+- Kubectl install deployment
+- Kubectl deploy
+- Kubectl launch
+- (Correct) Kubectl create deployment
+
+Answer Source: https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-interactive/
+
+
+Question 4: What is the kubectl command to show detailed information about a resource?
+
+- Kubectl logs
+- Kubectl get
+- (Correct) Kubectl describe
+- Kubectl exe
+
+Answer Source: https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/
+
+
+Question 5: What can labels be used for?
+
+- Designate objects for development, test, and production
+- Embed version tags
+- Classify an object using tags
+- (All of them)
+
+Answer Source: https://kubernetes.io/docs/tutorials/kubernetes-basics/expose/expose-intro/
+
+
+Question 6: Looking at the ReplicaSet name formatted as [DEPLOYMENT-NAME]-[RANDOM-STRING], what does the random string use as a seed?
+
+- bcrypt hash
+- (Correct) pod-template-hash
+- char2seed
+- random.seed()
+
+Answer Source: https://kubernetes.io/docs/tutorials/kubernetes-basics/scale/scale-interactive/
+
+
+Question 7: By default, what is the maximum number of Pods that can be unavailable during a rolling update and the maximum number of new Pods that can be created?
+
+- (Correct) One
+- Two
+- As many as needed
+- Zero
+
+Answer Source: https://kubernetes.io/docs/tutorials/kubernetes-basics/update/update-intro/
+
